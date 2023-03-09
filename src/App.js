@@ -9,12 +9,10 @@ function App() {
 
   const buttonHandler = () => {
       setNum(num+1);
-      console.log(list);
   }
 
   const buttonHandler2 = () => {
       setList([...list, num]);
-      console.log(list);
   }
 
   return (
