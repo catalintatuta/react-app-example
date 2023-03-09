@@ -11,7 +11,7 @@ class ClassComponent extends React.Component {
     }
 
     componentDidMount() {
-        alert('Initial number from state:' + this.state.countedNumber);
+        alert('Initial number from the class component state:' + this.state.countedNumber);
         this.setState({countedNumber: 1000});
     }
 
