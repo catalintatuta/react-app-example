@@ -9,8 +9,6 @@ export default class BooksService {
     this.httpClient = client;
   }
 
-  // https://www.googleapis.com/books/v1/volumes?q=${bookToSearch}&key=${API_KEY}&maxResults=10
-
   async getBooks(bookToSearch) {
     try {
       const { data } = await this.httpClient.get(
